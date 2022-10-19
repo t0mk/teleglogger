@@ -2,7 +2,7 @@
 
 ![Screenshot](/teleglogger.png?raw=true "Screenshot")
 
-Watches docker logs for regexp and send a Telegram message when matching. Also sends a message when container dies.
+Watches docker logs for regexp and sends a Telegram message when matching. Also sends a message when container dies.
 
 It's something like [logspout](https://github.com/gliderlabs/logspout), but simpler, only with one adapter/route - a Telegram bot chat. I dug most of the code from lospout actually.
 
